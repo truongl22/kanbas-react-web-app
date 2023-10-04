@@ -1,0 +1,178 @@
+body, html{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.wd-sidebar{
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    padding: 0;
+    height: 100%;
+    width: 85px;
+    background-color: black;
+}
+
+.wd-northeastern-logo{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.wd-sidebar-width-85px{
+    width: 85px;
+}
+
+.wd-remove-border{
+    border-radius: 0px;
+    border: none;
+}
+
+.list-group-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.wd-background-white{
+    background-color: white;
+}
+
+.list-group-item.active{
+    background-color: white;
+    color: #B52828;
+}
+
+.wd-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+}
+
+.font-size-14{
+    font-size: 14px;
+}
+
+.wd-sidebar-2nd{
+    background-color: white;
+    width: 140px;
+}
+
+.wd-sidebar-2nd .list-group-item{
+    background-color: white;
+    color: #B52828;
+    align-items: start;
+    padding-left: 12px;
+}
+
+.wd-sidebar-2nd .list-group-item.active{
+    color: black;
+    border-width: 2px;
+}
+
+.wd-profile-name{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.wd-profile-info-title{
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.wd-active-border-color{
+    border-color: black;
+    border-left-width: 3px;
+}
+
+a#wd-id-list-group-item {
+    border: none;
+}
+
+a#wd-id-active-list-group-item{
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-left-width: 5px;
+    border-color: black;
+    border-left-width: 3px;
+}
+
+.wd-img-profile{
+    height: 170px;
+    width: 170px;
+}
+
+.wd-link-youtube{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wd-link-youtube-a{
+    color: #B52828;
+    text-decoration: none;
+}
+
+.btn-primary{
+    width: 130px;
+    background-color: lightgray;
+    color: #25272B;
+    border: none;
+}
+
+.wd-btn-primary{
+    width: 160px;
+    background-color: lightgray;
+    color: #25272B;
+    border: none;
+}
+
+.wd-btn-links-primary{
+    width: 180px;
+    background-color: lightgray;
+    color: #25272B;
+    border: none;
+}
+
+.wd-btn-cancel-editing{
+    width: 200px;
+    background-color: lightgray;
+    color: #25272B;
+    border: none;
+}
+.wd-profile-prounouns{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-select{
+    width: 40%;
+}
+
+.form-control{
+    width: 70%;
+}
+
+.form-label{
+    font-size: 24px;
+}
+
+.wd-profile-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+

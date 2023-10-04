@@ -1,0 +1,77 @@
+body,
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.wd-sidebar {
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  padding: 0;
+  height: 100%;
+  width: 85px;
+  background-color: black;
+}
+
+.wd-northeastern-logo {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.list-group {
+  width: 85px;
+}
+
+.list-group-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.list-group-item.active{
+  background-color: white;
+  color: #B52828;
+  border: white;
+}
+
+.wd-background-white {
+  background-color: white;
+}
+
+.card{
+    height: 250px;
+    width: 270px;
+}
+
+.card-img-top{
+    height: 130px;
+}
+
+.card-title{
+    color: #0047ab;
+    font-size: 15px;
+}
+
+.card-title-color{
+    color: gray;
+}
+
+.card-title-font14{
+    font-size: 15px;
+}
+
+.card-title-font10{
+    font-size: 12px;
+}
+
+.wd-position-fixed{
+  position: fixed;
+}
