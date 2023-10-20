@@ -1,0 +1,20 @@
+.wd-ellipsis-button {
+  height: 40px;
+  background-color: lightgray;
+  border: none;
+}
+
+.wd-red-button {
+  background-color: #B52828;
+  border: none;
+  height: 40px;
+  width: 100px
+}
+
+.wd-130px-button {
+  width: 130px;
+  height: 40px;
+  background-color: lightgray;
+  color: black;
+  border: none;
+}

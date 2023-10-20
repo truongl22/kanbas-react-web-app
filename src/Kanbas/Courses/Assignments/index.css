@@ -1,0 +1,8 @@
+.wd-course-green-border {
+  border-left-color: green;
+  border-left-width: 5px;
+}
+
+.wd-course-green-border a {
+  border-radius: 0px;
+}

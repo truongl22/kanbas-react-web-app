@@ -1,0 +1,12 @@
+body, html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.wd-col-left {
+  width: 120px;
+}
+
+.wd-col-right {
+  flex: 1;
+}

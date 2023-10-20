@@ -1,0 +1,35 @@
+.wd-card-width a {
+  width: 300px;
+  height: 250px;
+  text-decoration: none;
+}
+
+.wd-card-width {
+  height: 100%;
+}
+
+.card {
+  height: 250px;
+  width: 270px;
+}
+
+.card-img-top {
+  height: 130px;
+}
+
+.card-title {
+  color: #0047ab;
+  font-size: 15px;
+}
+
+.card-title-color {
+  color: gray;
+}
+
+.card-title-font14 {
+  font-size: 15px;
+}
+
+.card-title-font10 {
+  font-size: 12px;
+}

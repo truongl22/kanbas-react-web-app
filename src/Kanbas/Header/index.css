@@ -1,0 +1,13 @@
+.wd-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  margin-left: 10px;
+}
+
+.wd-header-font {
+  color: red;
+  text-decoration: none;
+}
