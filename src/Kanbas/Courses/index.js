@@ -8,13 +8,14 @@ import AssignmentEditor from "./Assignments/AssignmentEditor";
 import Header from "../Header";
 import CourseHeader from "../Header/courseheader";
 
-function Courses() {
+function Courses({courses}) {
   const {courseId} = useParams();
-  const course = db.courses.find((course) => course._id === courseId);
+  const course = courses.find((course) => course._id === courseId);
   return (
     <div>
       <div>
         <CourseHeader title={course.name} pages={"Home"}></CourseHeader>
+        {console.log(course)}
       </div>
       <div>
         <div className={"col-2 d-none d-lg-block"}>
