@@ -5,6 +5,14 @@ function AddingAndRemovingDataToFromArrays() {
   stringArray1.push('string3');
   numberArray1.splice(2, 1);  // remove 1 item starting at 2
   stringArray1.splice(1, 1);
+
+  return (
+    <div>
+      <h3> Adding And Removing Data To From Arrays </h3>
+      numberArray1 = {numberArray1}<br/>
+      stringArray1 = {stringArray1}<br/>
+    </div>
+  )
 }
 
 export default AddingAndRemovingDataToFromArrays
