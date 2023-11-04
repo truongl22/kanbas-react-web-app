@@ -7,7 +7,7 @@ function ButtonRight() {
   return (
     <div>
       {buttons.map((b, index) => (
-        <button key={index} type="button" className="btn btn-secondary float-end wd-200px-button mt-1 ms-1 mb-1">
+        <button key={index} type="button" className="btn-secondary float-end wd-200px-button mt-1 ms-1 mb-1">
           {b}
         </button>
       ))}

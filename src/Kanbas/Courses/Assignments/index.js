@@ -2,6 +2,7 @@ import React from "react";
 import {Link, useParams} from "react-router-dom";
 import db from "../../Database";
 import "./index.css"
+import ButtonTop from "../Assignments/ButtonTop";
 
 
 function Assignments() {
@@ -11,6 +12,11 @@ function Assignments() {
     (assignment) => assignment.course === courseId);
   return (
     <div className={"col-11"}>
+      <div className={"row"}>
+        <ButtonTop></ButtonTop>
+      </div>
+      <hr/>
+      <br/>
       <ul className="list-group">
         <div className="list-group-item p-3 ps-4" style={{backgroundColor: 'lightgray'}}>
           <h4>Assignments for

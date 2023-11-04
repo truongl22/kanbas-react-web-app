@@ -18,7 +18,7 @@ function Home() {
           <h2>Status</h2>
         </div>
       </div>
-      <div className={"col-xxl-3 d-none d-xxl-block"}>
+      <div className={"col-xxl-3 d-none d-xxl-block pe-4"}>
         <ButtonRight></ButtonRight>
       </div>
     </div>
