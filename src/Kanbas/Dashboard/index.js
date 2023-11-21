@@ -34,7 +34,7 @@ function Dashboard({
       <button className={"btn btn-success me-1 mt-2"} onClick={addNewCourse}>
         Add
       </button>
-      <button className={"btn btn-primary mt-2"} onClick={updateCourse}>
+      <button className={"btn btn-primary mt-2"} onClick={() => updateCourse(course)}>
         Update
       </button>
 
@@ -48,7 +48,7 @@ function Dashboard({
         <div className="wd-card-width row row-cols-1 row-cols-md-4 g-5">
           {courses.map((course) => (
             <Link key={course._id} to={`/Kanbas/Courses/${course._id}`}>
-              <div></div>
+              <div><h5>{course._id.$oid}</h5></div>
               <button className={"btn btn-danger me-1"}
                       onClick={(event) => {
                         event.preventDefault();
